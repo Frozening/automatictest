@@ -1,0 +1,21 @@
+- url: 'https://api.weixin.qq.com/cgi-bin/token'
+  title: 获取接口的token
+  method: get
+  param: >-
+    {'grant_type':'client_credential','appid':'wx6b11b3efd1cdc290','secret':'106a9c6157c4db5f6029918738f9529d'}
+- url: 'https://api.weixin.qq.com/cgi-bin/create'
+  title: 创建新的标签
+  method: post
+  param: ''
+- url: 'https://api.weixin.qq.com/cgi-bin/tags/get'
+  title: 查看已创建的标签
+  method: get
+  param: fdfd
+- url: 'https://api.weixin.qq.com/cgi-bin/tags/update'
+  title: 编辑已创建的标签
+  method: post
+  param: fdfd
+- url: 'https://api.weixin.qq.com/cgi-bin/tags/delete'
+  title: 删除已创建的标签
+  method: post
+  param: fdfd

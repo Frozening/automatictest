@@ -1,0 +1,15 @@
+-
+  name: 第一次获取token
+  url: /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d
+  validate:
+    - eq: {expires_in: 7200}
+-
+  name: 第二次获取token
+  url: /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d
+  validate:
+    - eq: {expires_in: 7200}
+-
+  name: 传错误的断言语句
+  url: /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d
+  validate:
+    - eq: {expires_in: 7201}
