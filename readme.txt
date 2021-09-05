@@ -1,2 +1,3 @@
 我轻轻的尝一口你说的爱我
-hdzdhvwwnigwgdewfrz
+还在回味你给过的温柔
+我静静的
