@@ -21,7 +21,7 @@ def assert_result(actual_result, expect_result): #actual_result传response.json(
 
 
 class TestOne:
-    @pytest.mark.parametrize("data", YamlUtil().read_test_yaml("./data/test_getaccess_token.yaml")) //yaml用例是一个列表，这样parametrize就能一个一个自动执行
+    @pytest.mark.parametrize("data", YamlUtil().read_test_yaml("./data/test_getaccess_token.yaml")) #yaml用例是一个列表，这样parametrize就能一个一个自动执行
     def test_getaccess_token(self, data):
             #请求数据和接口
             url = data["url"]
