@@ -60,4 +60,4 @@ class TestApiSearch:
         assert resp.status_code == 302
         print("# 执行get改post用例的测试#")
 
-# pytest -s -v testcase/api/test_api_search.py --html=api_search_report.html
+# pytest -s -v testcase/test_baidusearch.py --html=report/test_baidusearch.html
